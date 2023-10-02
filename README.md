@@ -1,0 +1,2 @@
+# BINF6310GROUPPROJECT
+Group Project for BINF6310 Ace Squad
