@@ -28,7 +28,7 @@ ClinVar
 * numpy
 * matplotlib.pyplot
 * roc_auc_score from sklearn.metrics
-### Breakdown of Python Code (roc_auc.png)
+### Breakdown of Python Code (roc_auc.py)
 * Used pandas to read **final_updated_file_two.csv** which contains our calculated ESM1b scores
   * Also contains EVE scores and ClinVar information
 * Calculated ROC-AUC scores using the function **roc_auc_score** on the benchmark dataset
