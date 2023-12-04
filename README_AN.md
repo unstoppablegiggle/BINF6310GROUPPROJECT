@@ -35,3 +35,7 @@ ClinVar
 * Displayed data using **plt.subplots** 
 ## Figure 2B
 ![roc_auc_png](roc_auc.png)
+## Acknowledgements
+Brandes, N., Goldman, G., Wang, C. H., Ye, C. J., &amp; Ntranos, V. (2023, August 10). Genome-wide prediction of disease variant effects with a deep protein language model. Nature News. https://www.nature.com/articles/s41588-023-01465-0 
+
+Kilic, I. (2023, September 19). ROC curve and AUC: Evaluating model performance. Medium. https://medium.com/@ilyurek/roc-curve-and-auc-evaluating-model-performance-c2178008b02
