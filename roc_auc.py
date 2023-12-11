@@ -79,6 +79,11 @@ ax.set_ylim((0.8, 0.95))
 ax.set_ylabel('ROC-AUC', fontsize=45)
 ax.tick_params(axis='y', which='major', labelsize=30)
 
+# Display data values above the bars
+for i, (value1, value2) in enumerate(zip(y1, y2)):
+    ax.text(x[i] - bar_spacing, value1 + 0.005, f'{value1:.3f}', ha='center', va='bottom', fontsize=20, color='black')
+    ax.text(x[i] + bar_spacing, value2 + 0.005, f'{value2:.3f}', ha='center', va='bottom', fontsize=20, color='black')
+
 ax.legend(loc='lower right', fontsize=45)
 set_ax_border_color(ax, '#aaaaaa')
 plt.savefig('roc_auc')
