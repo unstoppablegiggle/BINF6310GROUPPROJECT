@@ -34,7 +34,7 @@ ClinVar
 * Calculated ROC-AUC scores using the function **roc_auc_score** on the benchmark dataset
 * Displayed data using **plt.subplots** 
 ## Figure 2B
-![roc_auc_png](roc_auc.png)
+![roc_auc_jpg](roc_auc.jpg)
 ## Acknowledgements
 Brandes, N., Goldman, G., Wang, C. H., Ye, C. J., &amp; Ntranos, V. (2023, August 10). Genome-wide prediction of disease variant effects with a deep protein language model. Nature News. https://www.nature.com/articles/s41588-023-01465-0 
 
