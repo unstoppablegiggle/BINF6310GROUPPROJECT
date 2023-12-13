@@ -14,7 +14,7 @@ ClinVar
 pathogenic
   * The TPR should increase if our variants with significant ESM1b scores show up as pathogenic in ClinVar
 ## What is the AUC?
-![img_1.png](img_1.png)
+![img_1.png](Figures/img_1.png)
 * The Area Under the Curve (AUC) quantifies the overall performance of a classification model
 * It measures the model's ability to distinguish between positive and negative classes
 * It ranges from 0-1
@@ -34,7 +34,7 @@ ClinVar
 * Calculated ROC-AUC scores using the function **roc_auc_score** on the benchmark dataset
 * Displayed data using **plt.subplots** 
 ## Figure 2B
-![roc_auc_jpg](roc_auc.jpg)
+![roc_auc_jpg](Figures/roc_auc.jpg)
 ## Acknowledgements
 Brandes, N., Goldman, G., Wang, C. H., Ye, C. J., &amp; Ntranos, V. (2023, August 10). Genome-wide prediction of disease variant effects with a deep protein language model. Nature News. https://www.nature.com/articles/s41588-023-01465-0 
 
