@@ -5,7 +5,7 @@ Curve (AUC) in the context of the paper's Figure 2B.
 ClinVar
 * It also explains the methods used to calculate the ROC-AUC scores and display Figure 2B. 
 ## What is the ROC?
-![img.png](img.png)
+![img.png](Figures/img.png)
 * The ROC curve is a graphical representation of a model's ability to distinguish between classes
 * It plots the True Positive Rate against the False Positive Rate
   * **True Positive Rate (TPR)**: the proportion of actual positive samples correctly predicted
