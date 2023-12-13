@@ -16,7 +16,7 @@ def make_Ramp( ramp_colors ):
 # diff_cmap = make_Ramp( ['navy','royalblue','#8ce4fa','#faf18c','#fabc8c','#fa5534','red' ] ) ## yellow in center
 diff_cmap = make_Ramp( ['navy','royalblue','#acebfa','white','#faf18c','#fa5534','red' ] )
 # Load the data from the CSV file
-def load_data(uniprot_id, filename='C:/Users/tophe/PycharmProjects/BINF6310/esm-variants/output/men1_llr_scores.csv'):
+def load_data(uniprot_id, filename='men1_llr_scores.csv'):
     data = pd.read_csv(filename)
     filtered_data = data[data['seq_id'].str.contains(uniprot_id)]
 
