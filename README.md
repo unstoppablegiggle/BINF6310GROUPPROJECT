@@ -16,13 +16,13 @@ We strongly recommend familiarizing yourself with the original work before explo
 
 The scripts directory contains all the code required to reproduce the study's results. This includes:
 
-    * Scripts for generating figures presented in the project. These scripts provide visual representations of the data and findings.
+   * Scripts for generating figures presented in the project. These scripts provide visual representations of the data and findings.
 
-    * A modified version of the "esm score" program, optimized for user-friendliness and memory efficiency. This modified program enables execution on standard desktop computers.
+   * A modified version of the "esm score" program, optimized for user-friendliness and memory efficiency. This modified program enables execution on standard desktop computers.
 
-    * A Conda environment YAML file, specifying the necessary Python environment and dependencies for running the modified "esm score" program.
+   * A Conda environment YAML file, specifying the necessary Python environment and dependencies for running the modified "esm score" program.
 
-    * Bash scripts tailored for executing the program in a High-Performance Computing (HPC) environment, suitable for computationally intensive tasks.
+   * Bash scripts tailored for executing the program in a High-Performance Computing (HPC) environment, suitable for computationally intensive tasks.
 
 ### Figures
 
