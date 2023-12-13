@@ -9,8 +9,10 @@ Original Paper: [Link to Paper](https://www.nature.com/articles/s41588-023-01465
 GitHub Repository: [Link to Repository](https://github.com/ntranoslab/esm-variants)
 
 We strongly recommend familiarizing yourself with the original work before exploring our repository.
-Repository Contents
-Scripts
+
+## Repository Contents
+
+### Scripts
 
 The scripts directory contains all the code required to reproduce the study's results. This includes:
 
@@ -22,10 +24,10 @@ The scripts directory contains all the code required to reproduce the study's re
 
     Bash scripts tailored for executing the program in a High-Performance Computing (HPC) environment, suitable for computationally intensive tasks.
 
-## Figures
+### Figures
 
 Inside the figures directory, you will find all the figures that have been reproduced as part of our project. These figures offer insights and visualizations derived from the analysis of the provided data.
 
-## Data
+### Data
 
 The data directory houses all the raw data generated during our reproducibility study. Please note that the Uniprot primary isoform LLR scores file, which exceeds 15GB in size, is not included in this directory due to size constraints. However, it is available upon request. The data is an integral part of our study and serves as the foundation for our analysis.
