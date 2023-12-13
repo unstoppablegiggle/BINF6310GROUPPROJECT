@@ -5,7 +5,7 @@ Curve (AUC) in the context of the paper's Figure 2B.
 ClinVar
 * It also explains the methods used to calculate the ROC-AUC scores and display Figure 2B. 
 ## What is the ROC?
-![img.png](Figures/img.png)
+![img.png](Figures/ROC_curve.png)
 * The ROC curve is a graphical representation of a model's ability to distinguish between classes
 * It plots the True Positive Rate against the False Positive Rate
   * **True Positive Rate (TPR)**: the proportion of actual positive samples correctly predicted
@@ -14,7 +14,7 @@ ClinVar
 pathogenic
   * The TPR should increase if our variants with significant ESM1b scores show up as pathogenic in ClinVar
 ## What is the AUC?
-![img_1.png](Figures/img_1.png)
+![img_1.png](Figures/AUC.png)
 * The Area Under the Curve (AUC) quantifies the overall performance of a classification model
 * It measures the model's ability to distinguish between positive and negative classes
 * It ranges from 0-1
